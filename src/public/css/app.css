@@ -1,0 +1,206 @@
+@import url("http://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+:root {
+  --color-bl: #0772ba;
+  --color-background: #ffc708;
+  --color-body: #fafaf8;
+  --color-hover: #cbcfd1;
+  --color-title-table: #cad0d4;
+  --color-border: rgb(139, 139, 139);
+  --color-infor-staff: #e3e6e9; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif; }
+
+body {
+  background-color: var(--color-body);
+  justify-content: center;
+  align-items: center;
+  height: 100vh; }
+
+.header {
+  background-color: var(--color-body);
+  min-height: 46px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 5px 10px; }
+
+a {
+  color: var(--color-bl); }
+
+.subnav {
+  list-style-type: none; }
+
+#nav {
+  text-align: center; }
+
+#nav li {
+  position: relative; }
+
+.header a {
+  line-height: 46px;
+  font-weight: 600; }
+
+#nav > li > a {
+  color: var(--color-bl); }
+
+#nav .subnav {
+  display: none;
+  position: absolute;
+  min-width: 200px;
+  top: 100%;
+  left: 0;
+  background-color: var(--color-body);
+  box-shadow: rgba(0, 0, 0, 0.15) 3px 3px 4px; }
+
+.subnav li {
+  padding-left: 15px; }
+
+.row #nav:hover {
+  background-color: var(--color-hover); }
+
+#nav:hover .subnav {
+  display: block; }
+
+.subnav li:hover {
+  background-color: var(--color-hover); }
+
+a:hover {
+  text-decoration: none; }
+
+.formLogin {
+  margin: auto;
+  margin-top: 150px;
+  align-items: center;
+  width: 400px;
+  background-color: white;
+  align-items: center;
+  border: none;
+  border-radius: 20px;
+  padding: 40px;
+  color: #095182;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset; }
+
+.form h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  height: 3rem; }
+
+.form-control-pv {
+  width: 100%;
+  margin-top: 30px; }
+
+.form-control-pv input {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  border-bottom: 1px solid #ced4da;
+  width: 100%; }
+
+.form-control-pv input:focus {
+  border-bottom: 2px solid #ffc708; }
+
+.form-button {
+  margin-top: 30px;
+  text-align: center; }
+
+.form-button button {
+  width: 40%; }
+
+.form-button button:hover {
+  background-color: #bb8e09;
+  font-weight: bold; }
+
+.joblist {
+  position: relative;
+  width: 100%;
+  top: 60px; }
+
+.info-staff-row-title {
+  margin-bottom: 0;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: var(--color-title-table);
+  padding: 0;
+  height: 32px;
+  justify-content: center; }
+
+.info-staff-row-title p {
+  margin-bottom: 0;
+  text-align: center;
+  line-height: 32px;
+  font-weight: bold; }
+
+.info-staff-row .row {
+  margin-bottom: 0;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: var(--color-infor-staff);
+  padding: 0;
+  height: 32px;
+  justify-content: center; }
+
+.info-staff-row p {
+  color: var(--color-bl);
+  font-weight: 600; }
+
+.table_userlistjob, .info-staff {
+  align-items: center; }
+
+.table_userlistjob {
+  margin-top: 20px; }
+
+.table_title {
+  border: 2px solid #fff;
+  background-color: var(--color-title-table);
+  height: 42px;
+  align-items: center;
+  font-weight: bold; }
+
+.table_title p {
+  margin-bottom: 0;
+  text-align: center;
+  margin-top: 8px; }
+
+.table_title div {
+  padding: 0 0;
+  border-right: 1px solid white;
+  min-height: 40px; }
+
+.table_row {
+  background-color: var(--color-body);
+  height: 36px;
+  align-items: center;
+  font-size: 14px;
+  border-bottom: 1px solid var(--color-border); }
+
+.btn-baocao {
+  height: 28px;
+  align-items: center;
+  line-height: 30px;
+  padding: 0 6px;
+  width: 46px; }
+
+.inputnote {
+  border: none;
+  outline: none;
+  height: 100%;
+  background-color: var(--color-body);
+  width: 100%; }
+
+.table_row select {
+  border: none;
+  outline: none;
+  height: 100%;
+  background-color: var(--color-body); }
+
+.table_row p {
+  margin-bottom: 0; }
